@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Album</title>
+    <style>
+        .photo_album{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .photo_frame{
+            width: 300px;
+            height: 300px;
+            border: 10px solid #430840;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+        }
+        .photo_frame .photo img{
+            width: 100%;
+            height: 300px;
+        }
+        .photo_details{
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            top: 0;
+            left: 0;
+            display: none;
+        }
+        .photo_frame:hover .photo_details{
+            display: block;
+            background-color: rgba(75, 0, 130, 0.6);
+        }
+        .photo_frame:hover .photo_details h3{
+            color: white;
+            background-color: black;
+            text-align: center;
+        }
+        .photo_frame:hover .photo_details p{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Photo Album</h1>
+    <section class="photo_album">
+        <div class="photo_frame">
+            <div class="photo">
+                <img src="flower.jpg" alt="flower">
+            </div>
+            <div class="photo_details">
+                <h3>Purple Color Flower</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consectetur quidem nesciunt placeat fuga possimus, dolorum doloribus nam similique sequi.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo">
+                <img src="flower.jpg" alt="flower">
+            </div>
+            <div class="photo_details">
+                <h3>Purple Color Flower</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consectetur quidem nesciunt placeat fuga possimus, dolorum doloribus nam similique sequi.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo">
+                <img src="flower.jpg" alt="flower">
+            </div>
+            <div class="photo_details">
+                <h3>Purple Color Flower</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consectetur quidem nesciunt placeat fuga possimus, dolorum doloribus nam similique sequi.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo">
+                <img src="flower.jpg" alt="flower">
+            </div>
+            <div class="photo_details">
+                <h3>Purple Color Flower</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consectetur quidem nesciunt placeat fuga possimus, dolorum doloribus nam similique sequi.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo">
+                <img src="flower.jpg" alt="flower">
+            </div>
+            <div class="photo_details">
+                <h3>Purple Color Flower</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consectetur quidem nesciunt placeat fuga possimus, dolorum doloribus nam similique sequi.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo">
+                <img src="flower.jpg" alt="flower">
+            </div>
+            <div class="photo_details">
+                <h3>Purple Color Flower</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consectetur quidem nesciunt placeat fuga possimus, dolorum doloribus nam similique sequi.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo">
+                <img src="flower.jpg" alt="flower">
+            </div>
+            <div class="photo_details">
+                <h3>Purple Color Flower</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consectetur quidem nesciunt placeat fuga possimus, dolorum doloribus nam similique sequi.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo">
+                <img src="flower.jpg" alt="flower">
+            </div>
+            <div class="photo_details">
+                <h3>Purple Color Flower</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consectetur quidem nesciunt placeat fuga possimus, dolorum doloribus nam similique sequi.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo">
+                <img src="flower.jpg" alt="flower">
+            </div>
+            <div class="photo_details">
+                <h3>Purple Color Flower</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consectetur quidem nesciunt placeat fuga possimus, dolorum doloribus nam similique sequi.</p>
+            </div>
+        </div>
+        <div class="photo_frame">
+            <div class="photo">
+                <img src="flower.jpg" alt="flower">
+            </div>
+            <div class="photo_details">
+                <h3>Purple Color Flower</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consectetur quidem nesciunt placeat fuga possimus, dolorum doloribus nam similique sequi.</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
